@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: hsl(0, 3%, 23%);
+
+  padding: 5rem 0 0;
+}
+
+.game {
+  position: relative;
+  display: grid;
+  align-items: center;
+
+  margin-inline: auto;
+
+  width: 144rem;
+  height: 102.4rem;
+
+  background-image: url(assets/fundo.svg);
+  zoom: 70%;
+}
+
+.items {
+  display: grid;
+  justify-content: center;
+
+  grid-template-columns: repeat(4, minmax(auto, 22rem));
+  grid-template-rows: repeat(3, minmax(auto, 17rem));
+
+  grid-gap: 5rem;
+}
+
+.hole {
+  background: url(assets/mole-sprite-sheet.png);
+}
+
+.mole:nth-child(6) {
+  animation: mole-anime 600ms 1s steps(6);
+}
+
+.mole:nth-child(11) {
+  animation: mole-anime 600ms 3s steps(6);
+}
+
+.mole:nth-child(4) {
+  animation: mole-anime 600ms 6s steps(6);
+}
+
+@keyframes mole-anime {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: 1338px;
+  }
+}
