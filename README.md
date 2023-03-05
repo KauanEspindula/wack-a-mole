@@ -32,3 +32,7 @@ Com o Piskel eu fiz a string sheet da animação, para a animação ficar mais f
 ## <strong>Projeto</strong>
 
 Este projeto foi desenvolvido e proposto pela Rocketseat para que seus alunos possam praticar e revisar o que foi aprendido em aula.
+
+<br />
+
+<strong>[Acesse o projeto online aqui!](https://kauanespindula.github.io/wack-a-mole)<strong>

@@ -44,16 +44,24 @@ body {
   background: url(assets/mole-sprite-sheet.png);
 }
 
-.mole:nth-child(6) {
+.hole:nth-child(6) {
   animation: mole-anime 600ms 1s steps(6);
 }
 
-.mole:nth-child(11) {
+.hole:nth-child(11) {
   animation: mole-anime 600ms 3s steps(6);
 }
 
-.mole:nth-child(4) {
+.hole:nth-child(4) {
   animation: mole-anime 600ms 6s steps(6);
+}
+
+.hole:nth-child(1) {
+  animation: mole-anime 600ms 9s steps(6);
+}
+
+.hole:nth-child(9) {
+  animation: mole-anime 600ms 12s steps(6);
 }
 
 @keyframes mole-anime {
